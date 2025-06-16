@@ -1,10 +1,7 @@
-
-# Active Developer Badge
-Discord just launched the new "Active Developer" badge and they're encouraging new developers to join the community and get it.
-If you're still learning and want the badge, follow the instructions below!
-
-
-
+```
+# Значок активного разработчика
+Discord только что запустил новый значок "Активный разработчик" и они поощряют новых разработчиков присоединиться к сообществу и получить его.
+Если вы все еще учитесь и хотите получить значок, следуйте инструкциям ниже!
 
 --------------------------------------
 
@@ -12,44 +9,35 @@ If you're still learning and want the badge, follow the instructions below!
 
 --------------------------------------
 
+# Инструкции
 
+- Перейдите по ссылке https://discord.com/developers/applications и создайте новое приложение на аккаунте, на котором вы хотите получить значок.
+- Перейдите на вкладку бота и сгенерируйте аккаунт бота для приложения.
+- Нажмите кнопку "Reset Token" (Сбросить токен), чтобы сгенерировать токен (если у вас включена двухфакторная аутентификация, вам понадобится ваш код).
+- Скопируйте токен в буфер обмена.
+- Нажмите на этот значок, чтобы клонировать этот репозиторий в новый repl на Replit -> [![Run on Repl.it](https://replit.com/badge/github/hackermondev/discord-active-developer-badge)](https://replit.com/new/github/hackermondev/discord-active-developer-badge)
+  - Вы будете перенаправлены на Replit, возможно, вам придется создать аккаунт (вы можете зарегистрироваться через Google).
+    - Replit — это веб-сайт, и он не работает на вашем компьютере!
+- Дождитесь завершения клонирования репозитория и полного подключения repl.
+- Нажмите зеленую кнопку "Run" (Запустить) вверху.
+- Перейдите в консоль (большой черный квадрат справа) и вставьте токен, который вы скопировали ранее (**Примечание**: ``CTRL + V`` не сработает, вам нужно будет нажать ``CTRL + Shift + V`` или щелкнуть правой кнопкой мыши и выбрать «Вставить»).
+- Нажмите клавишу 'Enter'.
+- Подождите, пока в консоли не появится 'DONE | Application/Bot is up and running. DO NOT CLOSE THIS TAB UNLESS YOU ARE FINISHED USING THE BOT, IT WILL PUT THE BOT OFFLINE.' (ГОТОВО | Приложение/Бот запущено и работает. НЕ ЗАКРЫВАЙТЕ ЭТУ ВКЛАДКУ, ЕСЛИ ВЫ НЕ ЗАКОНЧИЛИ ИСПОЛЬЗОВАТЬ БОТА, ЭТО ПЕРЕВЕДЕТ БОТА В ОФФЛАЙН.), **НЕ ОСТАНАВЛИВАЙТЕ ПРОГРАММУ И НЕ ЗАКРЫВАЙТЕ ВКЛАДКУ, ИНАЧЕ БОТ БУДЕТ СЧИТАТЬСЯ DISCORD'ОМ "НЕОТВЕЧАЮЩИМ"**
+- Вернитесь на страницу приложения, перейдите на вкладку "General Information" (Общая информация), прокрутите вниз и скопируйте ID приложения.
+- Создайте новый Discord-сервер (вы можете удалить его в конце).
+- Включите сообщество на сервере (это нужно сделать, только если у вас нет других Discord-серверов с включенным сообществом).
+- Вернитесь на https://discord.com/developers/applications.
+- Скопируйте ID приложения.
+- Используйте эту ссылку-приглашение, чтобы добавить приложение на сервер: (замените ``{applicationid}`` на то, что вы скопировали) ``https://discord.com/oauth2/authorize?client_id={applicationid}&scope=bot%20applications.commands&permissions=105227086912``
+- На сервере перейдите в канал и используйте команду ``/ping`` на боте.
+- Перейдите на страницу <https://discord.com/developers/active-developer> и зарегистрируйте все (**если там сказано, что вы не соответствуете требованиям, это потому, что вы еще не зарегистрированы в их системе. Возможно, вам придется подождать до 24 часов**).
+- Поздравляем с новым значком.
 
-# Instructions
+**ПРИМЕЧАНИЕ:** Убедитесь, что у вас включена настройка "Use data to improve Discord" (Использовать данные для улучшения Discord) в User Settings (Настройки пользователя) > Privacy & Safety (Конфиденциальность и безопасность), иначе вы не сможете быть помечены как соответствующий требованиям.
 
-- Go to https://discord.com/developers/applications, and create a new application on the account you want the badge on.
-- Go to the bot tab and generate a bot account for the application.
-- Click the "Reset Token" button to generate a token (if you have 2fa enabled, you'll need your code).
-- Copy the token to your clipboard.
-- Click this badge to clone this repo to a new repl in Replit -> [![Run on Repl.it](https://replit.com/badge/github/hackermondev/discord-active-developer-badge)](https://replit.com/new/github/hackermondev/discord-active-developer-badge)
-  - You will be redirected to Replit, you might have to create an account (you can Register with Google).
-    - Replit is a website, and does not run off your computer! 
-- Wait for the repo has finished cloning and the repl to fully connect.
-- Click the green "Run" button at the top.
-- Go to the console (big black square on the right) and paste in the token you copied earlier (**Note**: ``CTRL + V`` won't work, you'll need to do ``CTRL + Shift + V`` or right-click and click paste).
-- Press the 'Enter' key.
-- Wait for it to print 'DONE | Application/Bot is up and running. DO NOT CLOSE THIS TAB UNLESS YOU ARE FINISHED USING THE BOT, IT WILL PUT THE BOT OFFLINE.' in the console, **DON'T STOP THE PROGRAM OR CLOSE THE TAB YET OR THE BOT WILL CONSIDERED BY DISCORD AS 'UNRESPONSIVE'**
-- Go back to the application page, go to the "General Information" tab, scroll down and copy application id.
-- Create a new discord server (you can delete it at the end).
-- Enable community on the server (you only need to do this if you don't own any other discord server with community enabled)
-- Return back to https://discord.com/developers/applications.
-- Copy the application id.
-- Use this invite link to add the application to the server: (replace ``{applicationid}`` with what you copied) ``https://discord.com/oauth2/authorize?client_id={applicationid}&scope=bot%20applications.commands&permissions=105227086912``
-- In the server, go to a channel and use the ``/ping`` command on the bot.
-- Go to the <https://discord.com/developers/active-developer> page and register everything (**if it says you're not eligible, it's because you're not registered in their system yet. you might have to wait up to 24 hours**).
-- Congrats on that shiny new badge.
+**ПРИМЕЧАНИЕ 2:** Вам не нужно держать вкладку Replit открытой 24/7. Переходите по URL-адресу Replit только тогда, когда хотите запустить своего бота.
 
+Если у вас возникнут какие-либо проблемы, [создайте новую проблему на GitHub](https://github.com/hackermondev/discord-active-developer/issues) или присоединитесь к [этому](https://discord.gg/M5MSE9CvNM) серверу и напишите мне в канале `#general`.
 
-**NOTE:** Make sure you have the “Use data to improve Discord” setting enabled under User Settings > Privacy & Safety otherwise you won't be able to be marked as eligible.
-
-**NOTE 2:** You do not need to keep the Replit tab open 24/7. Only go to the Replit url whenever you want to run your bot.
-
-If you're encountering any issues, [create a new GitHub issue](https://github.com/hackermondev/discord-active-developer/issues) or join [this](https://discord.gg/M5MSE9CvNM) server and ping me in the `#general` channel.
-
-
-# Star the repo!!!
-If you were able to successfully get the badge from this, star this repository so more people can see it and feel free to join our Discord server: https://discord.gg/M5MSE9CvNM
-
-### No, it's not "patched"
-I've seen a lot of people say that this method has been patched or something. It's not. It still works (people are still getting the badge from it), if you're unable to get the badge after 24 hours of waiting, you probably didn't follow the instructions correctly.
-
-I think people think this is patched because of NoTextToSpeech's video but that video linked to another repository that works a different way, not this one.
+# Поставьте звезду репозиторию!!!
+Если вам удалось успешно получить значок с помощью этого, поставьте звезду этому репозиторию, чтобы больше людей могли его увидеть, и не стесняйтесь присоединяться к нашему Discord-серверу: https://discord.gg/M5MSE9CvNM
